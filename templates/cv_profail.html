@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="{{ current_language }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>{{ _('resume.title') }}</title>
+</head>
+<body>
+<div class="page">
+    <div class="toolbar">
+        <p class="toolbar_title">{{ _('resume.preview') }}</p>
+        <nav class="language_switcher" aria-label="{{ _('resume.language_switcher') }}">
+            {% for lang in supported_languages %}
+            <a class="language_link{% if lang == current_language %} active{% endif %}" href="{{ url_for('index', lang=lang) }}">
+                {{ language_labels[lang] }}
+            </a>
+            {% endfor %}
+        </nav>
+    </div>
+
+    <div class="main">
+        <aside class="sidebar">
+            <div class="photo_frame">
+                <img
+                    class="profile_photo"
+                    src="{{ url_for('static', filename='images/profile.jpg') }}"
+                    alt="{{ _('hero.name') }}"
+                >
+            </div>
+
+            <div class="sidebar_block">
+                <h3 class="sidebar_title">{{ _('sidebar.contacts') }}</h3>
+                <div class="contact_list">
+                    <p><span class="contact_label">{{ _('contact.phone') }}</span><a href="tel:+380935511724" class="contact_link">+380935511724</a></p>
+                    <p><span class="contact_label">{{ _('contact.email') }}</span><a href="mailto:mazik.m1985@gmail.com" class="contact_link">mazik.m1985@gmail.com</a></p>
+                    <p><span class="contact_label">{{ _('contact.linkedin') }}</span><a href="https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9-%D0%BC%D0%B0%D0%B7%D1%83%D1%80%D0%B8%D0%BA-881898267" class="contact_link">linkedin.com/in/андрей-мазурик-881898267</a></p>
+                    <p><span class="contact_label">{{ _('contact.location') }}</span><span class="contact_text">{{ _('contact.location_value') }}</span></p>
+                    <p><span class="contact_label">{{ _('contact.work_format') }}</span><span class="contact_text">{{ _('contact.work_format_value') }}</span></p>
+                </div>
+            </div>
+
+            <div class="sidebar_block">
+                <h3 class="sidebar_title">{{ _('sidebar.languages') }}</h3>
+                <ul class="tag_list">
+                    <li>{{ _('language.ukrainian') }}</li>
+                    <li>{{ _('language.russian') }}</li>
+                    <li>{{ _('language.polish') }}</li>
+                    <li>{{ _('language.english') }}</li>
+                </ul>
+            </div>
+
+            <div class="sidebar_block">
+                <h3 class="sidebar_title">{{ _('section.additional_qualifications') }}</h3>
+                <ul class="bullet_list compact">
+                    <li>{{ _('qualification.1') }}</li>
+                    <li>{{ _('qualification.2') }}</li>
+                    <li>{{ _('qualification.3') }}</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main_content">
+            <section class="hero">
+                <h1 class="hero_name">{{ _('hero.name') }}</h1>
+                <p class="hero_role">{{ _('hero.role') }}</p>
+            </section>
+
+            <section class="content_section">
+                <h2 class="section_title">{{ _('section.profile') }}</h2>
+                <p class="lead_text">{{ _('profile.summary') }}</p>
+                <p class="body_text">{{ _('profile.stack') }}</p>
+            </section>
+
+            <section class="content_section">
+                <h2 class="section_title">{{ _('section.technical_skills') }}</h2>
+                <div class="skill_grid">
+                    <div class="skill_group">
+                        <h3>{{ _('skills.backend.title') }}</h3>
+                        <p>{{ _('skills.backend.items') }}</p>
+                    </div>
+                    <div class="skill_group">
+                        <h3>{{ _('skills.db.title') }}</h3>
+                        <p>{{ _('skills.db.items') }}</p>
+                    </div>
+                    <div class="skill_group">
+                        <h3>{{ _('skills.email.title') }}</h3>
+                        <p>{{ _('skills.email.items') }}</p>
+                    </div>
+                    <div class="skill_group">
+                        <h3>{{ _('skills.tools.title') }}</h3>
+                        <p>{{ _('skills.tools.items') }}</p>
+                    </div>
+                    <div class="skill_group">
+                        <h3>{{ _('skills.frontend.title') }}</h3>
+                        <p>{{ _('skills.frontend.items') }}</p>
+                    </div>
+                    <div class="skill_group">
+                        <h3>{{ _('skills.other.title') }}</h3>
+                        <p>{{ _('skills.other.items') }}</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content_section">
+                <h2 class="section_title">{{ _('section.work_experience') }}</h2>
+                <article class="experience_card">
+                    <div class="experience_header">
+                        <div>
+                            <h3 class="job_title">{{ _('job.title') }}</h3>
+                            <p class="company_name">{{ _('job.company') }}</p>
+                        </div>
+                        <div class="job_meta">
+                            <p>{{ _('job.period') }}</p>
+                            <p>{{ _('job.format') }}</p>
+                            <p>{{ _('job.location') }}</p>
+                        </div>
+                    </div>
+                    <p class="subheading">{{ _('job.responsibilities') }}</p>
+                    <ul class="bullet_list">
+                        <li>{{ _('job.resp.1') }}</li>
+                        <li>{{ _('job.resp.2') }}</li>
+                        <li>{{ _('job.resp.3') }}</li>
+                        <li>{{ _('job.resp.4') }}</li>
+                        <li>{{ _('job.resp.5') }}</li>
+                        <li>{{ _('job.resp.6') }}</li>
+                        <li>{{ _('job.resp.7') }}</li>
+                        <li>{{ _('job.resp.8') }}</li>
+                        <li>{{ _('job.resp.9') }}</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="content_section">
+                <h2 class="section_title">{{ _('section.projects') }}</h2>
+
+                <article class="project_card">
+                    <h3 class="project_title">{{ _('project.subscription.title') }}</h3>
+                    <p class="body_text">{{ _('project.subscription.summary') }}</p>
+                    <p class="subheading">{{ _('project.implemented') }}</p>
+                    <ul class="bullet_list">
+                        <li>{{ _('project.subscription.item.1') }}</li>
+                        <li>{{ _('project.subscription.item.2') }}</li>
+                        <li>{{ _('project.subscription.item.3') }}</li>
+                        <li>{{ _('project.subscription.item.4') }}</li>
+                        <li>{{ _('project.subscription.item.5') }}</li>
+                        <li>{{ _('project.subscription.item.6') }}</li>
+                        <li>{{ _('project.subscription.item.7') }}</li>
+                        <li>{{ _('project.subscription.item.8') }}</li>
+                    </ul>
+                    <p class="technology_line"><span>{{ _('project.technologies') }}</span> {{ _('project.subscription.tech') }}</p>
+                </article>
+
+                <article class="project_card">
+                    <h3 class="project_title">{{ _('project.mail_analyzer.title') }}</h3>
+                    <p class="body_text">{{ _('project.mail_analyzer.summary') }}</p>
+                    <p class="subheading">{{ _('project.implemented') }}</p>
+                    <ul class="bullet_list">
+                        <li>{{ _('project.mail_analyzer.item.1') }}</li>
+                        <li>{{ _('project.mail_analyzer.item.2') }}</li>
+                        <li>{{ _('project.mail_analyzer.item.3') }}</li>
+                        <li>{{ _('project.mail_analyzer.item.4') }}</li>
+                        <li>{{ _('project.mail_analyzer.item.5') }}</li>
+                        <li>{{ _('project.mail_analyzer.item.6') }}</li>
+                        <li>{{ _('project.mail_analyzer.item.7') }}</li>
+                    </ul>
+                    <p class="technology_line"><span>{{ _('project.technologies') }}</span> {{ _('project.mail_analyzer.tech') }}</p>
+                </article>
+
+                <article class="project_card">
+                    <h3 class="project_title">{{ _('project.exim.title') }}</h3>
+                    <p class="body_text">{{ _('project.exim.summary') }}</p>
+                    <p class="subheading">{{ _('project.implemented') }}</p>
+                    <ul class="bullet_list">
+                        <li>{{ _('project.exim.item.1') }}</li>
+                        <li>{{ _('project.exim.item.2') }}</li>
+                        <li>{{ _('project.exim.item.3') }}</li>
+                        <li>{{ _('project.exim.item.4') }}</li>
+                        <li>{{ _('project.exim.item.5') }}</li>
+                        <li>{{ _('project.exim.item.6') }}</li>
+                    </ul>
+                    <p class="technology_line"><span>{{ _('project.technologies') }}</span> {{ _('project.exim.tech') }}</p>
+                </article>
+
+                <article class="project_card">
+                    <h3 class="project_title">{{ _('project.admin.title') }}</h3>
+                    <p class="body_text">{{ _('project.admin.summary') }}</p>
+                    <p class="subheading">{{ _('project.implemented') }}</p>
+                    <ul class="bullet_list">
+                        <li>{{ _('project.admin.item.1') }}</li>
+                        <li>{{ _('project.admin.item.2') }}</li>
+                        <li>{{ _('project.admin.item.3') }}</li>
+                        <li>{{ _('project.admin.item.4') }}</li>
+                        <li>{{ _('project.admin.item.5') }}</li>
+                        <li>{{ _('project.admin.item.6') }}</li>
+                    </ul>
+                    <p class="technology_line"><span>{{ _('project.technologies') }}</span> {{ _('project.admin.tech') }}</p>
+                </article>
+            </section>
+
+            <section class="content_section two_column">
+                <div>
+                    <h2 class="section_title">{{ _('section.education') }}</h2>
+                    <p class="body_text strong">{{ _('education.school') }}</p>
+                    <p class="body_text">{{ _('education.specialization') }}</p>
+                    <p class="body_text">{{ _('education.language') }}</p>
+                </div>
+                <div>
+                    <h2 class="section_title">{{ _('section.additional_information') }}</h2>
+                    <p class="body_text">{{ _('additional.info') }}</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+</body>
+</html>

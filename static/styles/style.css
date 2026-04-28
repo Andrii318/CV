@@ -1,0 +1,359 @@
+:root {
+    --page-bg: #eef2f7;
+    --surface: #ffffff;
+    --sidebar-bg: #162030;
+    --sidebar-bg-strong: #0f1724;
+    --border: #d6dee8;
+    --accent: #2563eb;
+    --accent-soft: #dbeafe;
+    --text: #111827;
+    --text-muted: #5b6472;
+    --sidebar-text: #e5edf7;
+    --sidebar-muted: #aebbd0;
+    --shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--page-bg);
+    color: var(--text);
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.page {
+    width: min(1240px, calc(100% - 32px));
+    margin: 28px auto;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.toolbar_title {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.language_switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.language_link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 52px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.language_link:hover,
+.language_link.active {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr);
+    background: var(--surface);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.sidebar {
+    padding: 34px 26px;
+    background: linear-gradient(180deg, var(--sidebar-bg) 0%, var(--sidebar-bg-strong) 100%);
+    color: var(--sidebar-text);
+}
+
+.photo_frame {
+    width: min(100%, 220px);
+    aspect-ratio: 4 / 5;
+    margin-bottom: 28px;
+    border: 3px solid rgba(255, 255, 255, 0.14);
+    border-radius: 18px;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.4), rgba(100, 116, 139, 0.25));
+    box-shadow: 0 16px 30px rgba(8, 15, 28, 0.28);
+}
+
+.profile_photo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 18%;
+}
+
+.sidebar_block + .sidebar_block {
+    margin-top: 30px;
+}
+
+.sidebar_title {
+    margin: 0 0 14px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact_list p {
+    margin: 0 0 12px;
+    line-height: 1.55;
+}
+
+.contact_label {
+    display: block;
+    margin-bottom: 2px;
+    color: var(--sidebar-muted);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact_link,
+.contact_text {
+    color: var(--sidebar-text);
+    font-size: 14px;
+    line-height: 1.55;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.contact_link:hover {
+    color: #ffffff;
+}
+
+.tag_list,
+.bullet_list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tag_list li,
+.bullet_list li {
+    margin-bottom: 8px;
+    line-height: 1.65;
+}
+
+.tag_list li::marker,
+.bullet_list li::marker {
+    color: var(--accent);
+}
+
+.main_content {
+    padding: 42px 44px;
+}
+
+.hero {
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.hero_name {
+    margin: 0;
+    font-size: clamp(32px, 4vw, 42px);
+    line-height: 1.05;
+}
+
+.hero_role {
+    margin: 10px 0 0;
+    color: var(--accent);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content_section {
+    padding-top: 28px;
+}
+
+.section_title {
+    margin: 0 0 14px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.lead_text,
+.body_text,
+.subheading,
+.job_meta p,
+.company_name,
+.technology_line {
+    font-size: 14px;
+    line-height: 1.72;
+}
+
+.lead_text,
+.body_text,
+.job_meta p,
+.technology_line {
+    margin: 0;
+    color: var(--text-muted);
+}
+
+.lead_text + .body_text {
+    margin-top: 12px;
+}
+
+.strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.skill_grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.skill_group {
+    padding: 16px 18px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fbfcfe;
+}
+
+.skill_group h3,
+.project_title,
+.job_title {
+    margin: 0 0 8px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.skill_group p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.experience_card,
+.project_card {
+    padding: 20px 22px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.project_card + .project_card {
+    margin-top: 18px;
+}
+
+.experience_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 14px;
+}
+
+.company_name {
+    margin: 0;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.job_meta {
+    min-width: 190px;
+}
+
+.job_meta p {
+    margin: 0;
+    text-align: right;
+}
+
+.subheading {
+    margin: 0 0 10px;
+    color: var(--text);
+    font-weight: 700;
+}
+
+.technology_line {
+    margin-top: 12px;
+}
+
+.technology_line span {
+    color: var(--text);
+    font-weight: 700;
+}
+
+.two_column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.compact li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 980px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .main_content,
+    .sidebar {
+        padding: 28px 22px;
+    }
+
+    .skill_grid,
+    .two_column {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+    .page {
+        width: min(100%, calc(100% - 20px));
+        margin: 12px auto 24px;
+    }
+
+    .toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .experience_header {
+        flex-direction: column;
+    }
+
+    .job_meta {
+        min-width: auto;
+    }
+
+    .job_meta p {
+        text-align: left;
+    }
+
+    .photo_frame {
+        width: min(100%, 180px);
+    }
+}

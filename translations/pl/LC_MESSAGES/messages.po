@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cv-resume\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "resume.title"
+msgstr "Andrey Mazurik - Python Backend Developer"
+
+msgid "resume.preview"
+msgstr "Podglad CV"
+
+msgid "resume.language_switcher"
+msgstr "Przelacznik jezyka"
+
+msgid "hero.name"
+msgstr "Andrey Mazurik"
+
+msgid "hero.role"
+msgstr "Python Backend Developer"
+
+msgid "sidebar.contacts"
+msgstr "Kontakt"
+
+msgid "sidebar.languages"
+msgstr "Jezyki"
+
+msgid "contact.phone"
+msgstr "Telefon"
+
+msgid "contact.email"
+msgstr "Email"
+
+msgid "contact.linkedin"
+msgstr "LinkedIn"
+
+msgid "contact.location"
+msgstr "Lokalizacja"
+
+msgid "contact.work_format"
+msgstr "Forma pracy"
+
+msgid "contact.location_value"
+msgstr "Odessa, Ukraina"
+
+msgid "contact.work_format_value"
+msgstr "Zdalnie / Pelny etat"
+
+msgid "section.profile"
+msgstr "Profil"
+
+msgid "profile.summary"
+msgstr "Python Backend Developer z komercyjnym doswiadczeniem w programowaniu od maja 2023 roku. Mam doswiadczenie w budowaniu modulow backendowych do automatyzacji emaili, zarzadzania subskrypcjami, przetwarzania bledow dostarczania poczty, wewnetrznych narzedzi administracyjnych oraz integracji z zewnetrznymi serwisami."
+
+msgid "profile.stack"
+msgstr "Praktycznie pracowalem z Python, Flask, MySQL, SQL, Redis, szablonami HTML, JavaScript, Git, Bitbucket i Postman. Korzystalem takze z Gmail API, OAuth, SMTP/email dispatching, MIME/DSN bounce notifications, logow serwera Exim, wyrazen regularnych, raportow CSV/JSON oraz wewnetrznych narzedzi automatyzacji backendu."
+
+msgid "section.technical_skills"
+msgstr "Umiejetnosci techniczne"
+
+msgid "skills.backend.title"
+msgstr "Backend"
+
+msgid "skills.backend.items"
+msgstr "Python, Flask"
+
+msgid "skills.db.title"
+msgstr "Bazy danych / Storage"
+
+msgid "skills.db.items"
+msgstr "MySQL, SQL, Redis"
+
+msgid "skills.email.title"
+msgstr "Email / Integracje"
+
+msgid "skills.email.items"
+msgstr "Gmail API, OAuth, SMTP/email dispatching, HTML email templates, przetwarzanie bounce/DSN"
+
+msgid "skills.tools.title"
+msgstr "Narzedia"
+
+msgid "skills.tools.items"
+msgstr "Git, Bitbucket, Postman"
+
+msgid "skills.frontend.title"
+msgstr "Podstawy frontendu"
+
+msgid "skills.frontend.items"
+msgstr "HTML, CSS, JavaScript, Jinja templates"
+
+msgid "skills.other.title"
+msgstr "Inne"
+
+msgid "skills.other.items"
+msgstr "REST API, Regex, JSON, CSV, Gzip, CLI scripts, logging, background tasks, wsparcie wielojezyczne RU/HE"
+
+msgid "section.work_experience"
+msgstr "Doswiadczenie zawodowe"
+
+msgid "job.title"
+msgstr "Python Backend Developer"
+
+msgid "job.company"
+msgstr "InterLink Info Ltd"
+
+msgid "job.period"
+msgstr "Maj 2023 - Obecnie"
+
+msgid "job.format"
+msgstr "Pelny etat, zdalnie"
+
+msgid "job.location"
+msgstr "Odessa, Ukraina"
+
+msgid "job.responsibilities"
+msgstr "Glowne obowiazki"
+
+msgid "job.resp.1"
+msgstr "Tworzylem moduly backendowe w Python dla wewnetrznych serwisow firmy."
+
+msgid "job.resp.2"
+msgstr "Tworzylem i utrzymywalem Flask routes dla funkcji administracyjnych i zwiazanych z uzytkownikiem."
+
+msgid "job.resp.3"
+msgstr "Pracowalem z bazami danych MySQL, zapytaniami SQL i warstwami DAO."
+
+msgid "job.resp.4"
+msgstr "Uzywalem Redis do tymczasowego przechowywania danych, jednorazowych kodow potwierdzenia oraz logiki serwisowej."
+
+msgid "job.resp.5"
+msgstr "Rozwijalem moduly do subskrypcji email, potwierdzania subskrypcji, unsubscribe flows oraz masowej wysylki emaili."
+
+msgid "job.resp.6"
+msgstr "Pracowalem z HTML email templates oraz logika wielojezyczna dla rosyjskiego i hebrajskiego."
+
+msgid "job.resp.7"
+msgstr "Integrowalem zewnetrzne API do pobierania danych o wydarzeniach, sprzedawcach, domenach i historii zamowien klientow."
+
+msgid "job.resp.8"
+msgstr "Tworzylem narzedzia do analizy bledow dostarczania emaili, bounce messages i logow serwera pocztowego."
+
+msgid "job.resp.9"
+msgstr "Korzystalem z Git, Bitbucket i Postman do developmentu, testow i pracy zespolowej. Wspieralem i rozwijalem istniejaca funkcjonalnosc."
+
+msgid "section.projects"
+msgstr "Projekty"
+
+msgid "project.implemented"
+msgstr "Zrealizowano"
+
+msgid "project.technologies"
+msgstr "Technologie:"
+
+msgid "project.subscription.title"
+msgstr "Email Subscription & Dispatch Module"
+
+msgid "project.subscription.summary"
+msgstr "Modul backendowy do zarzadzania subskrypcjami email, potwierdzaniem subskrypcji, logika wypisania oraz masowymi kampaniami email."
+
+msgid "project.subscription.item.1"
+msgstr "Potwierdzanie subskrypcji za pomoca jednorazowego kodu."
+
+msgid "project.subscription.item.2"
+msgstr "Przechowywanie i walidacja kodow potwierdzenia w Redis."
+
+msgid "project.subscription.item.3"
+msgstr "Aktywacja subskrypcji new_events i super_price."
+
+msgid "project.subscription.item.4"
+msgstr "Powiadomienia email o zmianach statusu subskrypcji."
+
+msgid "project.subscription.item.5"
+msgstr "Masowa wysylka emaili do subskrybentow."
+
+msgid "project.subscription.item.6"
+msgstr "Filtrowanie tresci wedlug jezyka, miast, sekcji oraz historii zamowien klienta."
+
+msgid "project.subscription.item.7"
+msgstr "HTML email templates po rosyjsku i hebrajsku."
+
+msgid "project.subscription.item.8"
+msgstr "Logowanie wysylki emaili i obsluga bledow."
+
+msgid "project.subscription.tech"
+msgstr "Python, Flask, MySQL, Redis, HTML Templates, Email, REST API, JavaScript"
+
+msgid "project.mail_analyzer.title"
+msgstr "Mail Analyzer / Bounce Email Processing"
+
+msgid "project.mail_analyzer.summary"
+msgstr "Modul do analizy powiadomien bounce/DSN i wykrywania adresow email z problemami dostarczania."
+
+msgid "project.mail_analyzer.item.1"
+msgstr "Integracja Gmail API przez OAuth."
+
+msgid "project.mail_analyzer.item.2"
+msgstr "Przetwarzanie przychodzacych wiadomosci email."
+
+msgid "project.mail_analyzer.item.3"
+msgstr "Parsowanie struktur MIME/DSN oraz naglowkow X-Failed-Recipients."
+
+msgid "project.mail_analyzer.item.4"
+msgstr "Ekstrakcja problematycznych adresow email z naglowkow i tresci wiadomosci."
+
+msgid "project.mail_analyzer.item.5"
+msgstr "Obsluga przypadkow takich jak user unknown, mailbox unavailable, address not found, quarantine/spam, inactive email oraz changed email address."
+
+msgid "project.mail_analyzer.item.6"
+msgstr "Analiza tresci emaili oparta na wyrazeniach regularnych."
+
+msgid "project.mail_analyzer.item.7"
+msgstr "Generowanie raportow JSON dla kandydatow do wypisania. Uzycie OpenAI API jako fallback dla zlozonej analizy tresci emaili."
+
+msgid "project.mail_analyzer.tech"
+msgstr "Python, Gmail API, OAuth, Regex, MySQL, JSON, OpenAI API"
+
+msgid "project.exim.title"
+msgstr "Exim Mail Log Analyzer"
+
+msgid "project.exim.summary"
+msgstr "Male wewnetrzne narzedzie CLI do analizy logow serwera pocztowego Exim. Projekt jest nadal w trakcie realizacji."
+
+msgid "project.exim.item.1"
+msgstr "Analiza plikow mainlog oraz archiwalnych mainlog.*.gz dla wybranego okresu."
+
+msgid "project.exim.item.2"
+msgstr "Wyszukiwanie wpisow failed i deferred delivery."
+
+msgid "project.exim.item.3"
+msgstr "Ekstrakcja adresow email z logow Exim."
+
+msgid "project.exim.item.4"
+msgstr "Klasyfikacja problemow: nonexistent user, unavailable mailbox, typo domain, temporary errors, blokada Spamhaus."
+
+msgid "project.exim.item.5"
+msgstr "Generowanie raportow .txt, .csv oraz summary.txt."
+
+msgid "project.exim.item.6"
+msgstr "Generowanie pliku SQL import dla procesu wypisania."
+
+msgid "project.exim.tech"
+msgstr "Python, Regex, CSV, Gzip, CLI, Exim logs, SQL"
+
+msgid "project.admin.title"
+msgstr "Admin Module for Smarticket / Bravo"
+
+msgid "project.admin.summary"
+msgstr "Jeden z pierwszych modulow backendowych dla wewnetrznego panelu administracyjnego."
+
+msgid "project.admin.item.1"
+msgstr "Flask routes do zarzadzania relacjami miedzy uzytkownikami, salami i producentami."
+
+msgid "project.admin.item.2"
+msgstr "Dodawanie i usuwanie relacji miedzy uzytkownikiem a sala."
+
+msgid "project.admin.item.3"
+msgstr "Dodawanie i usuwanie relacji miedzy uzytkownikiem a producentem."
+
+msgid "project.admin.item.4"
+msgstr "Sprawdzanie zaleznosci przed usunieciem, aby nie usunac encji polaczonych z sesjami."
+
+msgid "project.admin.item.5"
+msgstr "Renderowanie HTML templates z Jinja. Funkcje JavaScript dla zapytan AJAX i dynamicznych aktualizacji interfejsu."
+
+msgid "project.admin.item.6"
+msgstr "Obsluga odpowiedzi sukcesu i bledow po stronie frontendu."
+
+msgid "project.admin.tech"
+msgstr "Python, Flask, MySQL, Jinja, JavaScript, HTML, Bootstrap"
+
+msgid "section.education"
+msgstr "Wyksztalcenie"
+
+msgid "education.school"
+msgstr "Szkola medyczna, Polska"
+
+msgid "education.specialization"
+msgstr "Specjalizacja: masazysta / masaz rehabilitacyjny"
+
+msgid "education.language"
+msgstr "Jezyk nauczania: polski"
+
+msgid "section.additional_qualifications"
+msgstr "Dodatkowe kwalifikacje"
+
+msgid "qualification.1"
+msgstr "Dokumenty morskie: motorzysta, 2 klasa."
+
+msgid "qualification.2"
+msgstr "Wyksztalcenie medyczne w zakresie masazu i rehabilitacji."
+
+msgid "qualification.3"
+msgstr "Doswiadczenie w roznych obszarach zawodowych, odpowiedzialnosc, dbalosc o szczegoly i wysoka adaptacyjnosc."
+
+msgid "language.ukrainian"
+msgstr "Ukrainski: biegle"
+
+msgid "language.russian"
+msgstr "Rosyjski: biegle"
+
+msgid "language.polish"
+msgstr "Polski: biegle"
+
+msgid "language.english"
+msgstr "Angielski: podstawowy / Pre-Intermediate"
+
+msgid "section.additional_information"
+msgstr "Dodatkowe informacje"
+
+msgid "additional.info"
+msgstr "Szukam stanowiska Python Backend Developer, na ktorym bede mogl dalej rozwijac sie w backend engineering, integracjach API, bazach danych, automatyzacji email, wewnetrznych serwisach i logice serwerowej aplikacji webowych."

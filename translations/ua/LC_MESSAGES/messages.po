@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cv-resume\n"
+"Language: ua\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "resume.title"
+msgstr "Андрій Мазурик - Python Backend Developer"
+
+msgid "resume.preview"
+msgstr "Перегляд резюме"
+
+msgid "resume.language_switcher"
+msgstr "Перемикач мови"
+
+msgid "hero.name"
+msgstr "Андрій Мазурик"
+
+msgid "hero.role"
+msgstr "Python Backend Developer"
+
+msgid "sidebar.contacts"
+msgstr "Контакти"
+
+msgid "sidebar.languages"
+msgstr "Мови"
+
+msgid "contact.phone"
+msgstr "Телефон"
+
+msgid "contact.email"
+msgstr "Email"
+
+msgid "contact.linkedin"
+msgstr "LinkedIn"
+
+msgid "contact.location"
+msgstr "Локація"
+
+msgid "contact.work_format"
+msgstr "Формат роботи"
+
+msgid "contact.location_value"
+msgstr "Одеса, Україна"
+
+msgid "contact.work_format_value"
+msgstr "Віддалено / Повна зайнятість"
+
+msgid "section.profile"
+msgstr "Профіль"
+
+msgid "profile.summary"
+msgstr "Python Backend Developer з комерційним досвідом розробки з травня 2023 року. Маю досвід створення backend-модулів для email-автоматизації, керування підписками, обробки помилок доставки листів, внутрішніх адміністративних інструментів та інтеграцій із зовнішніми сервісами."
+
+msgid "profile.stack"
+msgstr "Практично працював з Python, Flask, MySQL, SQL, Redis, HTML-шаблонами, JavaScript, Git, Bitbucket і Postman. Також працював з Gmail API, OAuth, SMTP/email dispatching, MIME/DSN bounce notifications, логами Exim mail server, регулярними виразами, CSV/JSON-звітами та внутрішніми інструментами backend-автоматизації."
+
+msgid "section.technical_skills"
+msgstr "Технічні навички"
+
+msgid "skills.backend.title"
+msgstr "Backend"
+
+msgid "skills.backend.items"
+msgstr "Python, Flask"
+
+msgid "skills.db.title"
+msgstr "Бази даних / Сховище"
+
+msgid "skills.db.items"
+msgstr "MySQL, SQL, Redis"
+
+msgid "skills.email.title"
+msgstr "Email / Інтеграції"
+
+msgid "skills.email.items"
+msgstr "Gmail API, OAuth, SMTP/email dispatching, HTML email templates, обробка bounce/DSN"
+
+msgid "skills.tools.title"
+msgstr "Інструменти"
+
+msgid "skills.tools.items"
+msgstr "Git, Bitbucket, Postman"
+
+msgid "skills.frontend.title"
+msgstr "Базовий frontend"
+
+msgid "skills.frontend.items"
+msgstr "HTML, CSS, JavaScript, Jinja templates"
+
+msgid "skills.other.title"
+msgstr "Інше"
+
+msgid "skills.other.items"
+msgstr "REST API, Regex, JSON, CSV, Gzip, CLI scripts, logging, background tasks, мультимовна підтримка RU/HE"
+
+msgid "section.work_experience"
+msgstr "Досвід роботи"
+
+msgid "job.title"
+msgstr "Python Backend Developer"
+
+msgid "job.company"
+msgstr "InterLink Info Ltd"
+
+msgid "job.period"
+msgstr "Травень 2023 - Дотепер"
+
+msgid "job.format"
+msgstr "Повна зайнятість, віддалено"
+
+msgid "job.location"
+msgstr "Одеса, Україна"
+
+msgid "job.responsibilities"
+msgstr "Основні обов'язки"
+
+msgid "job.resp.1"
+msgstr "Розробляв backend-модулі на Python для внутрішніх сервісів компанії."
+
+msgid "job.resp.2"
+msgstr "Створював і підтримував Flask routes для адміністративної та користувацької функціональності."
+
+msgid "job.resp.3"
+msgstr "Працював з базами даних MySQL, SQL-запитами та DAO-шарами."
+
+msgid "job.resp.4"
+msgstr "Використовував Redis для тимчасового зберігання даних, одноразових кодів підтвердження та сервісної логіки."
+
+msgid "job.resp.5"
+msgstr "Розробляв модулі для email-підписок, підтвердження підписки, unsubscribe flows та масової відправки листів."
+
+msgid "job.resp.6"
+msgstr "Працював з HTML email templates і мультимовною логікою для російської та івриту."
+
+msgid "job.resp.7"
+msgstr "Інтегрував зовнішні API для отримання даних про події, продавців, домени та історію замовлень клієнтів."
+
+msgid "job.resp.8"
+msgstr "Розробляв інструменти для аналізу помилок доставки листів, bounce-повідомлень і логів поштового сервера."
+
+msgid "job.resp.9"
+msgstr "Використовував Git, Bitbucket і Postman для розробки, тестування та командної роботи. Підтримував і покращував наявну функціональність."
+
+msgid "section.projects"
+msgstr "Проєкти"
+
+msgid "project.implemented"
+msgstr "Реалізовано"
+
+msgid "project.technologies"
+msgstr "Технології:"
+
+msgid "project.subscription.title"
+msgstr "Email Subscription & Dispatch Module"
+
+msgid "project.subscription.summary"
+msgstr "Backend-модуль для керування email-підписками, підтвердженням підписки, логікою відписки та масовими email-кампаніями."
+
+msgid "project.subscription.item.1"
+msgstr "Підтвердження підписки через одноразовий код підтвердження."
+
+msgid "project.subscription.item.2"
+msgstr "Зберігання та валідація кодів підтвердження на базі Redis."
+
+msgid "project.subscription.item.3"
+msgstr "Активація підписок new_events і super_price."
+
+msgid "project.subscription.item.4"
+msgstr "Email-сповіщення про зміну статусу підписки."
+
+msgid "project.subscription.item.5"
+msgstr "Масова відправка листів підписникам."
+
+msgid "project.subscription.item.6"
+msgstr "Фільтрація контенту за мовою, містами, секціями та історією замовлень клієнта."
+
+msgid "project.subscription.item.7"
+msgstr "HTML email templates російською та івритом."
+
+msgid "project.subscription.item.8"
+msgstr "Логування відправки листів та обробка помилок."
+
+msgid "project.subscription.tech"
+msgstr "Python, Flask, MySQL, Redis, HTML Templates, Email, REST API, JavaScript"
+
+msgid "project.mail_analyzer.title"
+msgstr "Mail Analyzer / Bounce Email Processing"
+
+msgid "project.mail_analyzer.summary"
+msgstr "Модуль для аналізу bounce/DSN-повідомлень і виявлення email-адрес з проблемами доставки."
+
+msgid "project.mail_analyzer.item.1"
+msgstr "Інтеграція Gmail API через OAuth."
+
+msgid "project.mail_analyzer.item.2"
+msgstr "Обробка вхідних email-повідомлень."
+
+msgid "project.mail_analyzer.item.3"
+msgstr "Парсинг MIME/DSN-структур і заголовків X-Failed-Recipients."
+
+msgid "project.mail_analyzer.item.4"
+msgstr "Витягування проблемних email-адрес із заголовків і тіла листа."
+
+msgid "project.mail_analyzer.item.5"
+msgstr "Обробка кейсів user unknown, mailbox unavailable, address not found, quarantine/spam, inactive email та changed email address."
+
+msgid "project.mail_analyzer.item.6"
+msgstr "Аналіз тексту листів на основі регулярних виразів."
+
+msgid "project.mail_analyzer.item.7"
+msgstr "Формування JSON-звітів для кандидатів на відписку. Використання OpenAI API як fallback для складного аналізу тексту листів."
+
+msgid "project.mail_analyzer.tech"
+msgstr "Python, Gmail API, OAuth, Regex, MySQL, JSON, OpenAI API"
+
+msgid "project.exim.title"
+msgstr "Exim Mail Log Analyzer"
+
+msgid "project.exim.summary"
+msgstr "Невеликий внутрішній CLI-інструмент для аналізу логів поштового сервера Exim. Проєкт ще в процесі розробки."
+
+msgid "project.exim.item.1"
+msgstr "Аналіз файлів mainlog і архівних mainlog.*.gz за вибраний період часу."
+
+msgid "project.exim.item.2"
+msgstr "Пошук записів про failed і deferred доставку."
+
+msgid "project.exim.item.3"
+msgstr "Витягування email-адрес із логів Exim."
+
+msgid "project.exim.item.4"
+msgstr "Класифікація проблем: nonexistent user, unavailable mailbox, typo domain, temporary errors, блокування Spamhaus."
+
+msgid "project.exim.item.5"
+msgstr "Генерація звітів .txt, .csv і summary.txt."
+
+msgid "project.exim.item.6"
+msgstr "Генерація SQL import file для обробки відписки."
+
+msgid "project.exim.tech"
+msgstr "Python, Regex, CSV, Gzip, CLI, Exim logs, SQL"
+
+msgid "project.admin.title"
+msgstr "Admin Module for Smarticket / Bravo"
+
+msgid "project.admin.summary"
+msgstr "Один із перших backend-модулів для внутрішньої адміністративної панелі."
+
+msgid "project.admin.item.1"
+msgstr "Flask routes для керування зв'язками між користувачами, залами та продюсерами."
+
+msgid "project.admin.item.2"
+msgstr "Додавання та видалення зв'язків між користувачем і залом."
+
+msgid "project.admin.item.3"
+msgstr "Додавання та видалення зв'язків між користувачем і продюсером."
+
+msgid "project.admin.item.4"
+msgstr "Перевірки залежностей перед видаленням, щоб не видаляти сутності, пов'язані із сесіями."
+
+msgid "project.admin.item.5"
+msgstr "Рендеринг HTML templates з Jinja. JavaScript-функції для AJAX-запитів і динамічного оновлення інтерфейсу."
+
+msgid "project.admin.item.6"
+msgstr "Обробка успішних і помилкових відповідей на стороні frontend."
+
+msgid "project.admin.tech"
+msgstr "Python, Flask, MySQL, Jinja, JavaScript, HTML, Bootstrap"
+
+msgid "section.education"
+msgstr "Освіта"
+
+msgid "education.school"
+msgstr "Медична школа, Польща"
+
+msgid "education.specialization"
+msgstr "Спеціалізація: масажист / реабілітаційний масаж"
+
+msgid "education.language"
+msgstr "Мова навчання: польська"
+
+msgid "section.additional_qualifications"
+msgstr "Додаткові кваліфікації"
+
+msgid "qualification.1"
+msgstr "Морські документи: моторист 2 класу."
+
+msgid "qualification.2"
+msgstr "Медична освіта у сфері масажу та реабілітації."
+
+msgid "qualification.3"
+msgstr "Досвід у різних професійних сферах, відповідальність, уважність до деталей і висока адаптивність."
+
+msgid "language.ukrainian"
+msgstr "Українська: вільно"
+
+msgid "language.russian"
+msgstr "Російська: вільно"
+
+msgid "language.polish"
+msgstr "Польська: вільно"
+
+msgid "language.english"
+msgstr "Англійська: базовий / Pre-Intermediate"
+
+msgid "section.additional_information"
+msgstr "Додаткова інформація"
+
+msgid "additional.info"
+msgstr "Шукаю позицію Python Backend Developer, де зможу далі розвиватися у backend engineering, API-інтеграціях, базах даних, email-автоматизації, внутрішніх сервісах і серверній логіці вебзастосунків."
