@@ -64,28 +64,28 @@ a {
     padding: 10px 16px;
     border: 1px solid #c7d4e5;
     border-radius: 10px;
-    background: #f8fbff;
+    background: rgba(255, 255, 255, 0.82);
     color: #334155;
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.04em;
-    box-shadow: 0 8px 16px rgba(37, 99, 235, 0.08);
+    box-shadow: 0 8px 16px rgba(15, 23, 42, 0.06);
     transition: 0.2s ease;
 }
 
 .language_link:hover {
     transform: translateY(-1px);
-    border-color: #93c5fd;
-    background: #eef6ff;
+    border-color: rgba(37, 99, 235, 0.28);
+    background: rgba(37, 99, 235, 0.08);
     color: var(--accent);
 }
 
 .language_link.active {
-    border-color: var(--accent);
-    background: var(--accent);
-    color: #ffffff;
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.22);
+    border-color: rgba(37, 99, 235, 0.34);
+    background: rgba(37, 99, 235, 0.14);
+    color: #1d4ed8;
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.12);
 }
 
 .main {
