@@ -317,3 +317,81 @@ msgstr "Additional Information"
 
 msgid "additional.info"
 msgstr "I am looking for a Python Backend Developer position focused on backend engineering, API integrations, data-intensive internal services, email automation, and database-driven web applications."
+
+msgid "section.recommendation"
+msgstr "Recommendation"
+
+msgid "recommendation.teaser.title"
+msgstr "Recommendation Letter"
+
+msgid "recommendation.teaser.summary"
+msgstr "Recommendation from Vladislav Porton about my work at InterLink Info: backend development, growth in Flask and databases, reliability, discipline, and teamwork."
+
+msgid "recommendation.open_letter"
+msgstr "Read recommendation"
+
+msgid "recommendation.open_original"
+msgstr "Open original Google Doc"
+
+msgid "recommendation.page.browser_title"
+msgstr "Recommendation Letter - Andrey Mazurik"
+
+msgid "recommendation.page.heading"
+msgstr "Recommendation for Andrey Mazurik"
+
+msgid "recommendation.back_to_resume"
+msgstr "Back to resume"
+
+msgid "recommendation.page.intro"
+msgstr "Below is a translated version of the recommendation letter. The original Russian version is also available via Google Docs."
+
+msgid "recommendation.meta.author"
+msgstr "Author"
+
+msgid "recommendation.meta.role"
+msgstr "Role"
+
+msgid "recommendation.meta.company"
+msgstr "Company"
+
+msgid "recommendation.meta.country"
+msgstr "Country"
+
+msgid "recommendation.author.name"
+msgstr "Vladislav Porton"
+
+msgid "recommendation.author.role"
+msgstr "Head of Software Department"
+
+msgid "recommendation.author.company"
+msgstr "InterLink Info Ltd"
+
+msgid "recommendation.author.country"
+msgstr "Israel"
+
+msgid "recommendation.author.email"
+msgstr "porton@israelinfo.co.il"
+
+msgid "recommendation.author.phone"
+msgstr "+972-526-574093"
+
+msgid "recommendation.p1"
+msgstr "I represent the Israeli company Interlink Info, which develops and maintains internet products, including the news website Israelinfo and the Kupat Bravo ticketing service."
+
+msgid "recommendation.p2"
+msgstr "I would like to recommend Andrey Mazurik, with whom we worked together for several years. Andrey worked with us remotely from Odesa as a Python web developer."
+
+msgid "recommendation.p3"
+msgstr "When Andrey started working with us, he did not yet have much hands-on experience, but he grew significantly over time. He learned Flask development, database work, JavaScript, and confidently adopted modern tools, including AI-assisted and agent-based workflows, which improved both the quality and speed of his work."
+
+msgid "recommendation.p4"
+msgstr "Andrey worked on both small projects from scratch and individual tasks within larger systems. We could confidently assign him a part of the work and be sure he would take it through to completion."
+
+msgid "recommendation.p5"
+msgstr "I would also like to highlight his personal qualities. Andrey is calm and well-balanced. He is easy to work with: he handles tasks constructively, avoids conflict, communicates well, and keeps a professional tone even in difficult situations. He is also genuinely motivated to learn and invests a great deal of personal time in that growth beyond working hours."
+
+msgid "recommendation.p6"
+msgstr "I especially want to note his discipline and sense of responsibility. Alongside his job, he served in a volunteer fire-rescue team in Odesa. That meant regular emergency responses to fires and the aftermath of shelling, often in difficult conditions. Even so, he consistently stayed in touch, completed tasks between calls, and remained reliable in the work process."
+
+msgid "recommendation.p7"
+msgstr "I can recommend Andrey as a dependable, calm, and responsible person who is comfortable to work with and someone you can rely on."

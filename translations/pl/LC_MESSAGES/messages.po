@@ -317,3 +317,81 @@ msgstr "Dodatkowe informacje"
 
 msgid "additional.info"
 msgstr "Szukam stanowiska Python Backend Developer, na ktorym bede mogl dalej rozwijac sie w backend engineering, integracjach API, data-intensive wewnetrznych serwisach, automatyzacji email i web applications opartych o bazy danych."
+
+msgid "section.recommendation"
+msgstr "Rekomendacja"
+
+msgid "recommendation.teaser.title"
+msgstr "List rekomendacyjny"
+
+msgid "recommendation.teaser.summary"
+msgstr "Rekomendacja od Vladislava Portona dotyczaca mojej pracy w InterLink Info: backend development, rozwoj we Flask i bazach danych, niezawodnosc, dyscyplina i komfortowa wspolpraca zespolowa."
+
+msgid "recommendation.open_letter"
+msgstr "Otworz list"
+
+msgid "recommendation.open_original"
+msgstr "Otworz oryginal w Google Docs"
+
+msgid "recommendation.page.browser_title"
+msgstr "List rekomendacyjny - Andrey Mazurik"
+
+msgid "recommendation.page.heading"
+msgstr "List rekomendacyjny dla Andrey Mazurik"
+
+msgid "recommendation.back_to_resume"
+msgstr "Powrot do CV"
+
+msgid "recommendation.page.intro"
+msgstr "Ponizej znajduje sie wersja listu rekomendacyjnego w wybranym jezyku. Oryginal po rosyjsku jest takze dostepny przez Google Docs."
+
+msgid "recommendation.meta.author"
+msgstr "Autor"
+
+msgid "recommendation.meta.role"
+msgstr "Stanowisko"
+
+msgid "recommendation.meta.company"
+msgstr "Firma"
+
+msgid "recommendation.meta.country"
+msgstr "Kraj"
+
+msgid "recommendation.author.name"
+msgstr "Vladislav Porton"
+
+msgid "recommendation.author.role"
+msgstr "Head of Software Department"
+
+msgid "recommendation.author.company"
+msgstr "InterLink Info Ltd"
+
+msgid "recommendation.author.country"
+msgstr "Izrael"
+
+msgid "recommendation.author.email"
+msgstr "porton@israelinfo.co.il"
+
+msgid "recommendation.author.phone"
+msgstr "+972-526-574093"
+
+msgid "recommendation.p1"
+msgstr "Reprezentuje izraelska firme Interlink Info, ktora zajmuje sie tworzeniem i utrzymaniem projektow internetowych, w tym serwisu informacyjnego Israelinfo oraz systemu sprzedazy biletow Kupat Bravo."
+
+msgid "recommendation.p2"
+msgstr "Chce udzielic rekomendacji Andreyowi Mazurikowi, z ktorym wspolpracowalismy przez kilka lat. Andrey pracowal z nami zdalnie z Odessy jako Python web developer."
+
+msgid "recommendation.p3"
+msgstr "Kiedy Andrey zaczynal z nami prace, nie mial jeszcze duzego praktycznego doswiadczenia, ale z czasem bardzo wyraznie sie rozwinąl. Opanowal tworzenie projektow we Flask, prace z bazami danych, JavaScript, a takze pewnie zaczal korzystac z nowoczesnych narzedzi, w tym AI i podejsc agentowych, co wyraznie poprawilo jakosc i tempo jego pracy."
+
+msgid "recommendation.p4"
+msgstr "Andrey zajmowal sie zarowno malymi projektami tworzonymi od zera, jak i pojedynczymi zadaniami w ramach wiekszych systemow. Mozna mu bylo spokojnie powierzyc fragment pracy i miec pewnosc, ze doprowadzi go do konca."
+
+msgid "recommendation.p5"
+msgstr "Chce tez podkreslic jego cechy osobiste. Andrey jest spokojna i zrownowazona osoba. Dobrze sie z nim pracuje: konstruktywnie przyjmuje zadania, nie wchodzi w konflikty, dobrze sie komunikuje i zachowuje profesjonalny ton nawet w trudnych sytuacjach. Naprawde chce sie uczyc i poswieca na ten rozwoj duzo wlasnego czasu, nie tylko godzin pracy."
+
+msgid "recommendation.p6"
+msgstr "Osobno chce zaznaczyc jego dyscypline i stosunek do pracy. Rownolegle z etatem dzialal w ochotniczym zespole ratowniczo-gasniczym w Odessie. Oznaczalo to regularne wyjazdy do pozarow i usuwania skutkow ostrzalow, czesto w ciezkich warunkach. Mimo to stale byl w kontakcie, wykonywal zadania nawet pomiedzy wezwaniami i pozostawal niezawodny w procesie pracy."
+
+msgid "recommendation.p7"
+msgstr "Moge polecic Andreya jako osobe niezawodna, spokojna i odpowiedzialna, z ktora pracuje sie komfortowo i na ktorej mozna polegac."

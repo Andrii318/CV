@@ -317,3 +317,81 @@ msgstr "Додаткова інформація"
 
 msgid "additional.info"
 msgstr "Шукаю позицію Python Backend Developer, де зможу далі розвиватися у backend engineering, API-інтеграціях, data-intensive внутрішніх сервісах, email-автоматизації та вебзастосунках, зав'язаних на бази даних."
+
+msgid "section.recommendation"
+msgstr "Рекомендація"
+
+msgid "recommendation.teaser.title"
+msgstr "Рекомендаційний лист"
+
+msgid "recommendation.teaser.summary"
+msgstr "Рекомендація від Владислава Портона про мою роботу в InterLink Info: backend-розробка, зростання у Flask і базах даних, надійність, дисципліна та комфортна командна взаємодія."
+
+msgid "recommendation.open_letter"
+msgstr "Відкрити лист"
+
+msgid "recommendation.open_original"
+msgstr "Відкрити оригінал у Google Docs"
+
+msgid "recommendation.page.browser_title"
+msgstr "Рекомендаційний лист - Андрій Мазурик"
+
+msgid "recommendation.page.heading"
+msgstr "Рекомендаційний лист для Андрія Мазурика"
+
+msgid "recommendation.back_to_resume"
+msgstr "Назад до резюме"
+
+msgid "recommendation.page.intro"
+msgstr "Нижче розміщена версія рекомендаційного листа обраною мовою. Оригінал російською також доступний за посиланням Google Docs."
+
+msgid "recommendation.meta.author"
+msgstr "Автор"
+
+msgid "recommendation.meta.role"
+msgstr "Посада"
+
+msgid "recommendation.meta.company"
+msgstr "Компанія"
+
+msgid "recommendation.meta.country"
+msgstr "Країна"
+
+msgid "recommendation.author.name"
+msgstr "Владислав Портон"
+
+msgid "recommendation.author.role"
+msgstr "Начальник відділу ПЗ"
+
+msgid "recommendation.author.company"
+msgstr "InterLink Info Ltd"
+
+msgid "recommendation.author.country"
+msgstr "Ізраїль"
+
+msgid "recommendation.author.email"
+msgstr "porton@israelinfo.co.il"
+
+msgid "recommendation.author.phone"
+msgstr "+972-526-574093"
+
+msgid "recommendation.p1"
+msgstr "Я представляю ізраїльську компанію Interlink Info, яка займається розробкою та підтримкою інтернет-проєктів, зокрема новинного сайту Israelinfo та сервісу продажу квитків «Каса Браво»."
+
+msgid "recommendation.p2"
+msgstr "Хочу дати рекомендацію Андрію Мазурику, з яким ми співпрацювали кілька років. Андрій працював у нас віддалено з Одеси як веб-розробник на Python."
+
+msgid "recommendation.p3"
+msgstr "Коли Андрій тільки почав працювати з нами, у нього ще не було великого практичного досвіду, але за цей час він помітно виріс. Він опанував розробку проєктів на Flask, роботу з базами даних, JavaScript, а також упевнено почав використовувати сучасні інструменти, включно з AI та агентними підходами, що помітно підвищило якість і швидкість його роботи."
+
+msgid "recommendation.p4"
+msgstr "У роботі Андрій займався як невеликими проєктами з нуля, так і окремими задачами в межах більших систем. Йому можна було спокійно довірити частину роботи й бути впевненим, що він доведе її до кінця."
+
+msgid "recommendation.p5"
+msgstr "Окремо хочу відзначити його особисті якості. Андрій — спокійна й урівноважена людина. З ним легко працювати: він конструктивно сприймає задачі, не конфліктує, вміє спілкуватися й зберігає робочий тон навіть у непростих ситуаціях. При цьому він справді хоче вчитися й витрачає на це багато особистого часу, а не лише робочі години."
+
+msgid "recommendation.p6"
+msgstr "Також хочу відзначити його дисципліну та ставлення до справи. Паралельно з роботою він брав участь у добровільній пожежно-рятувальній команді в Одесі. Це означало регулярні виїзди на пожежі та ліквідацію наслідків обстрілів, часто у важких умовах. Попри це, він стабільно виходив на зв'язок, виконував задачі навіть між викликами й не випадав з робочого процесу."
+
+msgid "recommendation.p7"
+msgstr "Я можу рекомендувати Андрія як надійну, спокійну та відповідальну людину, з якою комфортно працювати і на яку можна покластися."

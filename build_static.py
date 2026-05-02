@@ -16,6 +16,12 @@ PAGE_MAP = {
     "pl": "pl.html",
     "ua": "ua.html",
 }
+RECOMMENDATION_MAP = {
+    "en": "recommendation_en.html",
+    "ru": "recommendation_ru.html",
+    "pl": "recommendation_pl.html",
+    "ua": "recommendation_ua.html",
+}
 
 
 def rewrite_html(html: str) -> str:
@@ -24,6 +30,7 @@ def rewrite_html(html: str) -> str:
     html = html.replace('src="/static/images/profile.jpg"', 'src="static/images/profile.jpg"')
     for lang, filename in PAGE_MAP.items():
         html = html.replace(f'href="/?lang={lang}"', f'href="{filename}"')
+        html = html.replace(f'href="/recommendation?lang={lang}"', f'href="{RECOMMENDATION_MAP[lang]}"')
     return html
 
 
@@ -39,6 +46,12 @@ def export_pages() -> None:
                 raise RuntimeError(f"Failed to render language '{lang}': HTTP {response.status_code}")
             html = rewrite_html(response.get_data(as_text=True))
             (DOCS_DIR / PAGE_MAP[lang]).write_text(html, encoding="utf-8")
+
+            response = client.get(f"/recommendation?lang={lang}")
+            if response.status_code != 200:
+                raise RuntimeError(f"Failed to render recommendation for '{lang}': HTTP {response.status_code}")
+            html = rewrite_html(response.get_data(as_text=True))
+            (DOCS_DIR / RECOMMENDATION_MAP[lang]).write_text(html, encoding="utf-8")
 
     # Keep the English page as the default root URL for job platform links.
     (DOCS_DIR / "index.html").write_text((DOCS_DIR / "en.html").read_text(encoding="utf-8"), encoding="utf-8")

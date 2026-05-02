@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ current_language }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>{{ _('recommendation.page.browser_title') }}</title>
+</head>
+<body>
+<div class="page">
+    <div class="toolbar">
+        <div class="toolbar_group">
+            <a class="toolbar_link" href="{{ url_for('index', lang=current_language) }}">{{ _('recommendation.back_to_resume') }}</a>
+            <p class="toolbar_title">{{ _('section.recommendation') }}</p>
+        </div>
+        <nav class="language_switcher" aria-label="{{ _('resume.language_switcher') }}">
+            {% for lang in supported_languages %}
+            <a class="language_link{% if lang == current_language %} active{% endif %}" href="{{ url_for('recommendation', lang=lang) }}">
+                {{ language_labels[lang] }}
+            </a>
+            {% endfor %}
+        </nav>
+    </div>
+
+    <main class="letter_layout">
+        <article class="letter_card">
+            <p class="letter_kicker">{{ _('section.recommendation') }}</p>
+            <h1 class="hero_name letter_title">{{ _('recommendation.page.heading') }}</h1>
+            <p class="lead_text">{{ _('recommendation.page.intro') }}</p>
+
+            <div class="letter_meta_grid">
+                <div class="meta_item">
+                    <span class="contact_label">{{ _('recommendation.meta.author') }}</span>
+                    <p class="body_text strong">{{ _('recommendation.author.name') }}</p>
+                </div>
+                <div class="meta_item">
+                    <span class="contact_label">{{ _('recommendation.meta.role') }}</span>
+                    <p class="body_text strong">{{ _('recommendation.author.role') }}</p>
+                </div>
+                <div class="meta_item">
+                    <span class="contact_label">{{ _('recommendation.meta.company') }}</span>
+                    <p class="body_text strong">{{ _('recommendation.author.company') }}</p>
+                </div>
+                <div class="meta_item">
+                    <span class="contact_label">{{ _('recommendation.meta.country') }}</span>
+                    <p class="body_text strong">{{ _('recommendation.author.country') }}</p>
+                </div>
+            </div>
+
+            <div class="letter_body">
+                <p>{{ _('recommendation.p1') }}</p>
+                <p>{{ _('recommendation.p2') }}</p>
+                <p>{{ _('recommendation.p3') }}</p>
+                <p>{{ _('recommendation.p4') }}</p>
+                <p>{{ _('recommendation.p5') }}</p>
+                <p>{{ _('recommendation.p6') }}</p>
+                <p>{{ _('recommendation.p7') }}</p>
+            </div>
+
+            <div class="signature_card">
+                <p class="body_text strong">{{ _('recommendation.author.name') }}</p>
+                <p class="body_text">{{ _('recommendation.author.role') }}</p>
+                <p class="body_text">{{ _('recommendation.author.company') }}</p>
+                <p class="body_text">{{ _('recommendation.author.country') }}</p>
+                <p class="body_text"><a class="inline_link" href="mailto:{{ _('recommendation.author.email') }}">{{ _('recommendation.author.email') }}</a></p>
+                <p class="body_text"><a class="inline_link" href="tel:+972526574093">{{ _('recommendation.author.phone') }}</a></p>
+            </div>
+
+            <div class="action_row">
+                <a class="action_link" href="{{ recommendation_doc_url }}" target="_blank" rel="noopener noreferrer">{{ _('recommendation.open_original') }}</a>
+                <a class="action_link secondary" href="{{ url_for('index', lang=current_language) }}">{{ _('recommendation.back_to_resume') }}</a>
+            </div>
+        </article>
+    </main>
+</div>
+</body>
+</html>

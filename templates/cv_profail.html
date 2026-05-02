@@ -211,6 +211,25 @@
             </section>
 
             <section class="content_section">
+                <h2 class="section_title">{{ _('section.recommendation') }}</h2>
+                <article class="recommendation_teaser">
+                    <p class="subheading">{{ _('recommendation.teaser.title') }}</p>
+                    <p class="body_text">{{ _('recommendation.teaser.summary') }}</p>
+                    <p class="recommendation_meta_line">
+                        {{ _('recommendation.author.name') }} · {{ _('recommendation.author.role') }} · {{ _('recommendation.author.company') }}
+                    </p>
+                    <div class="action_row">
+                        <a class="action_link" href="{{ url_for('recommendation', lang=current_language) }}" target="_blank" rel="noopener noreferrer">
+                            {{ _('recommendation.open_letter') }}
+                        </a>
+                        <a class="action_link secondary" href="{{ recommendation_doc_url }}" target="_blank" rel="noopener noreferrer">
+                            {{ _('recommendation.open_original') }}
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content_section">
                 <h2 class="section_title">{{ _('section.projects') }}</h2>
 
                 <article class="project_card">

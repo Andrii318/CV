@@ -6,6 +6,7 @@ from flask import Flask, g, has_request_context, render_template, request
 
 app = Flask(__name__)
 SUPPORTED_LANGUAGES = ("en", "ru", "pl", "ua")
+RECOMMENDATION_DOC_URL = "https://docs.google.com/document/d/1nQCbBcRU-Sl2cMDqeSlR3eC1Yp5Rs1tqb-rRPPOdK8k/edit?pli=1&tab=t.0"
 LANGUAGE_LABELS = {
     "en": "EN",
     "ru": "RU",
@@ -18,6 +19,12 @@ LANGUAGE_LABELS = {
 def index():
     """Render the main resume template."""
     return render_template("cv_profail.html")
+
+
+@app.route("/recommendation")
+def recommendation():
+    """Render the recommendation letter page."""
+    return render_template("recommendation.html")
 
 
 @app.context_processor
@@ -49,6 +56,7 @@ def inject_translations():
         "current_language": lang,
         "supported_languages": SUPPORTED_LANGUAGES,
         "language_labels": LANGUAGE_LABELS,
+        "recommendation_doc_url": RECOMMENDATION_DOC_URL,
     }
 
 
