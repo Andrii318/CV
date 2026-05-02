@@ -52,10 +52,10 @@ msgid "section.profile"
 msgstr "Profile"
 
 msgid "profile.summary"
-msgstr "Python Backend Developer with commercial development experience since May 2023. Experienced in building backend modules for email automation, subscription management, mail delivery error processing, internal admin tools, and integrations with external services."
+msgstr "Python Backend Developer with commercial experience since May 2023. Built multilingual subscription services, email automation flows, internal Flask APIs, DAO layers, legacy system synchronization, and mail delivery analysis tools."
 
 msgid "profile.stack"
-msgstr "I have hands-on experience with Python, Flask, MySQL, SQL, Redis, HTML templates, JavaScript, Git, Bitbucket, and Postman. I have worked with Gmail API, OAuth, SMTP/email dispatching, MIME/DSN bounce notifications, Exim mail server logs, regular expressions, CSV/JSON reports, and internal backend automation tools."
+msgstr "Hands-on experience with Python, Flask, MySQL, SQL, Redis, HTML/Jinja templates, JavaScript, Git, Bitbucket, and Postman. Worked with Gmail API, OAuth, SMTP/email dispatching, MIME/DSN parsing, REST integrations, background jobs, advisory locks, connection pooling, JSON/CSV reports, and legacy database migration."
 
 msgid "section.technical_skills"
 msgstr "Technical Skills"
@@ -64,7 +64,7 @@ msgid "skills.backend.title"
 msgstr "Backend"
 
 msgid "skills.backend.items"
-msgstr "Python, Flask"
+msgstr "Python, Flask, REST API"
 
 msgid "skills.db.title"
 msgstr "Databases / Storage"
@@ -76,7 +76,7 @@ msgid "skills.email.title"
 msgstr "Email / Integrations"
 
 msgid "skills.email.items"
-msgstr "Gmail API, OAuth, SMTP/email dispatching, HTML email templates, bounce/DSN processing"
+msgstr "SMTP/email dispatching, Gmail API, OAuth, HTML email templates, MIME/DSN processing"
 
 msgid "skills.tools.title"
 msgstr "Tools"
@@ -94,7 +94,7 @@ msgid "skills.other.title"
 msgstr "Other"
 
 msgid "skills.other.items"
-msgstr "REST API, Regex, JSON, CSV, Gzip, CLI scripts, logging, background tasks, multilingual support RU/HE"
+msgstr "DAO layers, connection pooling, advisory locks, background jobs, Regex, JSON, CSV, multilingual support RU/HE"
 
 msgid "section.work_experience"
 msgstr "Work Experience"
@@ -121,28 +121,28 @@ msgid "job.resp.1"
 msgstr "Developed backend modules in Python for internal company services."
 
 msgid "job.resp.2"
-msgstr "Created and maintained Flask routes for administrative and user-related functionality."
+msgstr "Created and maintained Flask routes for administrative and user-facing functionality."
 
 msgid "job.resp.3"
-msgstr "Worked with MySQL databases, SQL queries, and DAO layers."
+msgstr "Worked with MySQL, complex SQL queries, DAO layers, and transaction-safe data updates."
 
 msgid "job.resp.4"
 msgstr "Used Redis for temporary data storage, one-time confirmation codes, and service logic."
 
 msgid "job.resp.5"
-msgstr "Developed modules for email subscriptions, subscription confirmation, unsubscribe flows, and mass email dispatching."
+msgstr "Developed multilingual email subscription flows: confirmation, unsubscribe, status notifications, and background dispatching."
 
 msgid "job.resp.6"
 msgstr "Worked with HTML email templates and multilingual logic for Russian and Hebrew."
 
 msgid "job.resp.7"
-msgstr "Integrated external APIs to receive data about events, sellers, domains, and customer order history."
+msgstr "Integrated internal APIs for events, seller and domain settings, mirror sellers, and order-history personalization."
 
 msgid "job.resp.8"
-msgstr "Developed tools for analyzing email delivery errors, bounce messages, and mail server logs."
+msgstr "Built tools for analyzing email delivery failures, bounce/DSN messages, Gmail traffic, and unsubscribe candidate reports."
 
 msgid "job.resp.9"
-msgstr "Used Git, Bitbucket, and Postman for development, testing, and teamwork. Supported and improved existing functionality."
+msgstr "Used Git, Bitbucket, and Postman for development, testing, and teamwork. Supported, improved, and extended existing services."
 
 msgid "section.projects"
 msgstr "Projects"
@@ -154,121 +154,121 @@ msgid "project.technologies"
 msgstr "Technologies:"
 
 msgid "project.subscription.title"
-msgstr "Email Subscription & Dispatch Module"
+msgstr "Subscription Dispatch Platform"
 
 msgid "project.subscription.summary"
-msgstr "Backend module for managing email subscriptions, subscription confirmation, unsubscribe logic, and mass email campaigns."
+msgstr "Multilingual backend service for subscriber settings, confirmation codes, unsubscribe flows, mass dispatching, and compatibility with the Bravo legacy subscription system."
 
 msgid "project.subscription.item.1"
-msgstr "Subscription confirmation via one-time confirmation code."
+msgstr "Public and internal Flask routes for subscriber settings, confirmation, unsubscribe, migration, and sync flows."
 
 msgid "project.subscription.item.2"
-msgstr "Redis-based storage and validation of confirmation codes."
+msgstr "Redis-based one-time confirmation codes with reuse protection."
 
 msgid "project.subscription.item.3"
-msgstr "Activation of new_events and super_price subscriptions."
+msgstr "Separate Russian and Hebrew subscription states with seller mirror logic."
 
 msgid "project.subscription.item.4"
-msgstr "Email notifications about subscription status changes."
+msgstr "Single status email for enable, disable, or mixed subscription changes."
 
 msgid "project.subscription.item.5"
-msgstr "Mass email dispatching to subscribers."
+msgstr "Background super_price dispatch with batching and send logs."
 
 msgid "project.subscription.item.6"
 msgstr "Content filtering by language, cities, sections, and customer order history."
 
 msgid "project.subscription.item.7"
-msgstr "HTML email templates in Russian and Hebrew."
+msgstr "HTML email templates and domain resolution for Russian and Hebrew seller pages."
 
 msgid "project.subscription.item.8"
-msgstr "Logging of email sending and error handling."
+msgstr "Legacy synchronization and import of subscribers, filters, and history from old tickets tables."
 
 msgid "project.subscription.tech"
-msgstr "Python, Flask, MySQL, Redis, HTML Templates, Email, REST API, JavaScript"
+msgstr "Python, Flask, MySQL, Redis, REST API, Jinja/HTML Email, threading"
 
 msgid "project.mail_analyzer.title"
-msgstr "Mail Analyzer / Bounce Email Processing"
+msgstr "Mail Analyzer / Bounce Processing"
 
 msgid "project.mail_analyzer.summary"
-msgstr "Module for analyzing bounce/DSN notifications and detecting email addresses with delivery problems."
+msgstr "Internal email failure analysis service that processes Gmail bounce traffic and produces unsubscribe candidates."
 
 msgid "project.mail_analyzer.item.1"
 msgstr "Gmail API integration via OAuth."
 
 msgid "project.mail_analyzer.item.2"
-msgstr "Processing of incoming email messages."
+msgstr "Asynchronous processing through a dedicated analyze endpoint with run locking."
 
 msgid "project.mail_analyzer.item.3"
-msgstr "Parsing of MIME/DSN structures and X-Failed-Recipients headers."
+msgstr "Strict parsing of MIME/DSN structures and X-Failed-Recipients headers."
 
 msgid "project.mail_analyzer.item.4"
-msgstr "Extraction of problematic email addresses from headers and email body."
+msgstr "Extraction of failed addresses from headers, DSN parts, and message body."
 
 msgid "project.mail_analyzer.item.5"
-msgstr "Handling cases such as user unknown, mailbox unavailable, address not found, quarantine/spam, inactive email, and changed email address."
+msgstr "Classification of cases such as user unknown, mailbox unavailable, quarantine/spam, inactive email, and changed email address."
 
 msgid "project.mail_analyzer.item.6"
-msgstr "Regular expression based analysis of email text."
+msgstr "Staged regex-based analysis before LLM fallback."
 
 msgid "project.mail_analyzer.item.7"
-msgstr "JSON report generation for unsubscribe candidates. OpenAI API usage as a fallback for complex email text analysis."
+msgstr "JSON report generation with summary statistics, cleanup, and OpenAI fallback for complex emails."
 
 msgid "project.mail_analyzer.tech"
-msgstr "Python, Gmail API, OAuth, Regex, MySQL, JSON, OpenAI API"
+msgstr "Python, Gmail API, OAuth, MIME/DSN, Regex, JSON, OpenAI API"
 
 msgid "project.exim.title"
-msgstr "Exim Mail Log Analyzer"
+msgstr "Bravo DB Integration Service"
 
 msgid "project.exim.summary"
-msgstr "Small internal CLI tool for analyzing Exim mail server logs. The project is still in progress."
+msgstr "Internal Flask API over Bravo MySQL data used by subscription and dispatch workflows."
 
 msgid "project.exim.item.1"
-msgstr "Analysis of mainlog and archived mainlog.*.gz files for a selected time period."
+msgstr "REST endpoints for super price shows, seller domains, active sellers, order history, and all emails linked to a customer document."
 
 msgid "project.exim.item.2"
-msgstr "Search for failed and deferred delivery log entries."
+msgstr "Complex SQL joins across orders, shows, seances, halls, cities, sellers, partners, and discount tables."
 
 msgid "project.exim.item.3"
-msgstr "Extraction of email addresses from Exim logs."
+msgstr "Aggregation of show metadata, date ranges, city lists, and discount flags for dispatch campaigns."
 
 msgid "project.exim.item.4"
-msgstr "Classification of issues: nonexistent user, unavailable mailbox, typo domain, temporary errors, Spamhaus blocking."
+msgstr "Customer order history retrieval for personalization by region and section."
 
 msgid "project.exim.item.5"
-msgstr "Generation of .txt, .csv, and summary.txt reports."
+msgstr "Seller and domain mapping with mirror IDs and partner activity status."
 
 msgid "project.exim.item.6"
-msgstr "Generation of an SQL import file for unsubscribe processing."
+msgstr "Reusable MySQL gateway with connection pooling, retry logic, and explicit transaction control."
 
 msgid "project.exim.tech"
-msgstr "Python, Regex, CSV, Gzip, CLI, Exim logs, SQL"
+msgstr "Python, Flask, MySQL, SQL, REST API, connection pooling"
 
 msgid "project.admin.title"
-msgstr "Admin Module for Smarticket / Bravo"
+msgstr "Legacy Bravo Compatibility & Migration"
 
 msgid "project.admin.summary"
-msgstr "One of the first backend modules for an internal admin panel."
+msgstr "Compatibility layer and migration flows between the new dispatch service and the legacy Bravo/global_bravo subscription ecosystem."
 
 msgid "project.admin.item.1"
-msgstr "Flask routes for managing relations between users, halls, and producers."
+msgstr "Best-effort sync back to legacy Subscribe and SubscribeHistory tables."
 
 msgid "project.admin.item.2"
-msgstr "Adding and deleting relations between a user and a hall."
+msgstr "Preservation and generation of legacy SID identifiers for subscriber compatibility."
 
 msgid "project.admin.item.3"
-msgstr "Adding and deleting relations between a user and a producer."
+msgstr "Synchronization of cities and sections between new and old schemas."
 
 msgid "project.admin.item.4"
-msgstr "Dependency checks before deletion to prevent removing entities connected with sessions."
+msgstr "Background import of subscribers, filters, history, cities, and sections from legacy tickets tables."
 
 msgid "project.admin.item.5"
-msgstr "Rendering HTML templates with Jinja. JavaScript functions for AJAX requests and dynamic interface updates."
+msgstr "Support for legacy CRM flows and multilingual subscribe/unsubscribe templates in the Bravo ecosystem."
 
 msgid "project.admin.item.6"
-msgstr "Handling success and error responses on the frontend side."
+msgstr "Safe handling of null dates and schema differences between old and new databases."
 
 msgid "project.admin.tech"
-msgstr "Python, Flask, MySQL, Jinja, JavaScript, HTML, Bootstrap"
+msgstr "Python, Flask, MySQL, SQL, data migration, legacy systems"
 
 msgid "section.education"
 msgstr "Education"
@@ -310,4 +310,4 @@ msgid "section.additional_information"
 msgstr "Additional Information"
 
 msgid "additional.info"
-msgstr "I am looking for a Python Backend Developer position where I can continue developing in backend engineering, API integrations, databases, email automation, internal services, and server-side web application logic."
+msgstr "I am looking for a Python Backend Developer position focused on backend engineering, API integrations, data-intensive internal services, email automation, and database-driven web applications."

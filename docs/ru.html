@@ -84,8 +84,8 @@
 
             <section class="content_section">
                 <h2 class="section_title">Профиль</h2>
-                <p class="lead_text">Python Backend Developer с коммерческим опытом разработки с мая 2023 года. Имею опыт создания backend-модулей для email-автоматизации, управления подписками, обработки ошибок доставки писем, внутренних административных инструментов и интеграций с внешними сервисами.</p>
-                <p class="body_text">Практически работал с Python, Flask, MySQL, SQL, Redis, HTML-шаблонами, JavaScript, Git, Bitbucket и Postman. Также использовал Gmail API, OAuth, SMTP/email dispatching, MIME/DSN bounce notifications, логи Exim mail server, регулярные выражения, CSV/JSON-отчеты и внутренние инструменты backend-автоматизации.</p>
+                <p class="lead_text">Python Backend Developer с коммерческим опытом с мая 2023 года. Разрабатывал мультиязычные сервисы подписок, email-автоматизацию, внутренние Flask API, DAO-слои, синхронизацию с legacy-системами и инструменты анализа доставки писем.</p>
+                <p class="body_text">Практический опыт с Python, Flask, MySQL, SQL, Redis, HTML/Jinja-шаблонами, JavaScript, Git, Bitbucket и Postman. Работал с Gmail API, OAuth, SMTP/email dispatching, MIME/DSN-парсингом, REST-интеграциями, background jobs, advisory locks, connection pooling, JSON/CSV-отчетами и миграцией legacy-баз.</p>
             </section>
 
             <section class="content_section">
@@ -93,7 +93,7 @@
                 <div class="skill_grid">
                     <div class="skill_group">
                         <h3>Backend</h3>
-                        <p>Python, Flask</p>
+                        <p>Python, Flask, REST API</p>
                     </div>
                     <div class="skill_group">
                         <h3>Базы данных / Хранилище</h3>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="skill_group">
                         <h3>Email / Интеграции</h3>
-                        <p>Gmail API, OAuth, SMTP/email dispatching, HTML email templates, обработка bounce/DSN</p>
+                        <p>SMTP/email dispatching, Gmail API, OAuth, HTML email templates, обработка MIME/DSN</p>
                     </div>
                     <div class="skill_group">
                         <h3>Инструменты</h3>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="skill_group">
                         <h3>Другое</h3>
-                        <p>REST API, Regex, JSON, CSV, Gzip, CLI scripts, logging, background tasks, мультиязычная поддержка RU/HE</p>
+                        <p>DAO-слои, connection pooling, advisory locks, background jobs, Regex, JSON, CSV, мультиязычная поддержка RU/HE</p>
                     </div>
                 </div>
             </section>
@@ -136,13 +136,13 @@
                     <ul class="bullet_list">
                         <li>Разрабатывал backend-модули на Python для внутренних сервисов компании.</li>
                         <li>Создавал и поддерживал Flask routes для административной и пользовательской функциональности.</li>
-                        <li>Работал с базами данных MySQL, SQL-запросами и DAO-слоями.</li>
+                        <li>Работал с MySQL, сложными SQL-запросами, DAO-слоями и безопасными транзакционными обновлениями данных.</li>
                         <li>Использовал Redis для временного хранения данных, одноразовых кодов подтверждения и сервисной логики.</li>
-                        <li>Разрабатывал модули для email-подписок, подтверждения подписки, unsubscribe flows и массовой отправки писем.</li>
+                        <li>Разрабатывал мультиязычные email-подписки: подтверждение, отписку, статусные уведомления и фоновую рассылку.</li>
                         <li>Работал с HTML email templates и мультиязычной логикой для русского и иврита.</li>
-                        <li>Интегрировал внешние API для получения данных о событиях, продавцах, доменах и истории заказов клиентов.</li>
-                        <li>Разрабатывал инструменты для анализа ошибок доставки писем, bounce-сообщений и логов почтового сервера.</li>
-                        <li>Использовал Git, Bitbucket и Postman для разработки, тестирования и командной работы. Поддерживал и улучшал существующий функционал.</li>
+                        <li>Интегрировал внутренние API для событий, seller/domain-настроек, mirror sellers и персонализации по истории заказов.</li>
+                        <li>Разрабатывал инструменты для анализа email delivery failures, bounce/DSN-сообщений, Gmail-трафика и отчетов по кандидатам на отписку.</li>
+                        <li>Использовал Git, Bitbucket и Postman для разработки, тестирования и командной работы. Поддерживал, улучшал и расширял существующие сервисы.</li>
                     </ul>
                 </article>
             </section>
@@ -151,66 +151,66 @@
                 <h2 class="section_title">Проекты</h2>
 
                 <article class="project_card">
-                    <h3 class="project_title">Email Subscription &amp; Dispatch Module</h3>
-                    <p class="body_text">Backend-модуль для управления email-подписками, подтверждением подписки, логикой отписки и массовыми email-кампаниями.</p>
+                    <h3 class="project_title">Платформа подписок и рассылок</h3>
+                    <p class="body_text">Мультиязычный backend-сервис для настроек подписчика, кодов подтверждения, отписки, массовых рассылок и совместимости с legacy-системой подписок Bravo.</p>
                     <p class="subheading">Реализовано</p>
                     <ul class="bullet_list">
-                        <li>Подтверждение подписки через одноразовый код подтверждения.</li>
-                        <li>Хранение и валидация кодов подтверждения на базе Redis.</li>
-                        <li>Активация подписок new_events и super_price.</li>
-                        <li>Email-уведомления об изменении статуса подписки.</li>
-                        <li>Массовая отправка писем подписчикам.</li>
+                        <li>Публичные и внутренние Flask routes для настроек подписчика, подтверждения, отписки, миграции и sync-флоу.</li>
+                        <li>Одноразовые коды подтверждения на Redis с защитой от повторного использования.</li>
+                        <li>Раздельные статусы подписок для русского и иврита с логикой seller mirrors.</li>
+                        <li>Единое статусное письмо для включения, отключения и смешанных изменений подписок.</li>
+                        <li>Фоновая рассылка super_price с батчингом и логированием отправок.</li>
                         <li>Фильтрация контента по языку, городам, секциям и истории заказов клиента.</li>
-                        <li>HTML email templates на русском и иврите.</li>
-                        <li>Логирование отправки писем и обработка ошибок.</li>
+                        <li>HTML email templates и выбор домена для русских и ивритоязычных seller-страниц.</li>
+                        <li>Legacy-синхронизация и импорт подписчиков, фильтров и истории из старых tickets-таблиц.</li>
                     </ul>
-                    <p class="technology_line"><span>Технологии:</span> Python, Flask, MySQL, Redis, HTML Templates, Email, REST API, JavaScript</p>
+                    <p class="technology_line"><span>Технологии:</span> Python, Flask, MySQL, Redis, REST API, Jinja/HTML Email, threading</p>
                 </article>
 
                 <article class="project_card">
-                    <h3 class="project_title">Mail Analyzer / Bounce Email Processing</h3>
-                    <p class="body_text">Модуль для анализа bounce/DSN-уведомлений и выявления email-адресов с проблемами доставки.</p>
+                    <h3 class="project_title">Mail Analyzer / Обработка bounce-писем</h3>
+                    <p class="body_text">Внутренний сервис анализа email-ошибок, который обрабатывает Gmail bounce-трафик и формирует кандидатов на отписку.</p>
                     <p class="subheading">Реализовано</p>
                     <ul class="bullet_list">
                         <li>Интеграция Gmail API через OAuth.</li>
-                        <li>Обработка входящих email-сообщений.</li>
-                        <li>Парсинг MIME/DSN-структур и заголовков X-Failed-Recipients.</li>
-                        <li>Извлечение проблемных email-адресов из заголовков и тела письма.</li>
-                        <li>Обработка кейсов user unknown, mailbox unavailable, address not found, quarantine/spam, inactive email и changed email address.</li>
-                        <li>Анализ текста писем на основе регулярных выражений.</li>
-                        <li>Формирование JSON-отчетов для кандидатов на отписку. Использование OpenAI API как fallback для сложного анализа email-текста.</li>
+                        <li>Асинхронная обработка через отдельный analyze endpoint с блокировкой параллельного запуска.</li>
+                        <li>Строгий парсинг MIME/DSN-структур и заголовков X-Failed-Recipients.</li>
+                        <li>Извлечение проблемных адресов из заголовков, DSN-частей и тела письма.</li>
+                        <li>Классификация кейсов: user unknown, mailbox unavailable, quarantine/spam, inactive email и changed email address.</li>
+                        <li>Пошаговый regex-анализ перед fallback на LLM.</li>
+                        <li>Формирование JSON-отчетов со статистикой и очисткой данных. OpenAI API использовался как fallback для сложных писем.</li>
                     </ul>
-                    <p class="technology_line"><span>Технологии:</span> Python, Gmail API, OAuth, Regex, MySQL, JSON, OpenAI API</p>
+                    <p class="technology_line"><span>Технологии:</span> Python, Gmail API, OAuth, MIME/DSN, Regex, JSON, OpenAI API</p>
                 </article>
 
                 <article class="project_card">
-                    <h3 class="project_title">Exim Mail Log Analyzer</h3>
-                    <p class="body_text">Небольшой внутренний CLI-инструмент для анализа логов почтового сервера Exim. Проект все еще в процессе разработки.</p>
+                    <h3 class="project_title">Сервис интеграции с Bravo DB</h3>
+                    <p class="body_text">Внутреннее Flask API поверх Bravo MySQL-данных, используемое в сценариях подписок и рассылок.</p>
                     <p class="subheading">Реализовано</p>
                     <ul class="bullet_list">
-                        <li>Анализ файлов mainlog и архивных mainlog.*.gz за выбранный период времени.</li>
-                        <li>Поиск записей о failed и deferred доставке.</li>
-                        <li>Извлечение email-адресов из логов Exim.</li>
-                        <li>Классификация проблем: nonexistent user, unavailable mailbox, typo domain, temporary errors, блокировка Spamhaus.</li>
-                        <li>Генерация отчетов .txt, .csv и summary.txt.</li>
-                        <li>Генерация SQL import file для обработки отписки.</li>
+                        <li>REST endpoints для super price show, seller domains, active sellers, order history и всех email, связанных с документом клиента.</li>
+                        <li>Сложные SQL-join&#39;ы по orders, shows, seances, halls, cities, sellers, partners и discount-таблицам.</li>
+                        <li>Агрегация метаданных шоу, диапазонов дат, списков городов и discount-флагов для рассылочных кампаний.</li>
+                        <li>Получение истории заказов клиента для персонализации по региону и секции.</li>
+                        <li>Маппинг продавцов и доменов с mirror ID и статусом активности партнера.</li>
+                        <li>Переиспользуемый MySQL gateway с connection pooling, retry-логикой и явным управлением транзакциями.</li>
                     </ul>
-                    <p class="technology_line"><span>Технологии:</span> Python, Regex, CSV, Gzip, CLI, Exim logs, SQL</p>
+                    <p class="technology_line"><span>Технологии:</span> Python, Flask, MySQL, SQL, REST API, connection pooling</p>
                 </article>
 
                 <article class="project_card">
-                    <h3 class="project_title">Admin Module for Smarticket / Bravo</h3>
-                    <p class="body_text">Один из первых backend-модулей для внутренней административной панели.</p>
+                    <h3 class="project_title">Совместимость и миграция legacy Bravo</h3>
+                    <p class="body_text">Слой совместимости и миграционные процессы между новым dispatch-сервисом и legacy-экосистемой подписок Bravo/global_bravo.</p>
                     <p class="subheading">Реализовано</p>
                     <ul class="bullet_list">
-                        <li>Flask routes для управления связями между пользователями, залами и продюсерами.</li>
-                        <li>Добавление и удаление связей между пользователем и залом.</li>
-                        <li>Добавление и удаление связей между пользователем и продюсером.</li>
-                        <li>Проверки зависимостей перед удалением, чтобы не удалить сущности, связанные с сессиями.</li>
-                        <li>Рендеринг HTML templates с Jinja. JavaScript-функции для AJAX-запросов и динамического обновления интерфейса.</li>
-                        <li>Обработка успешных и ошибочных ответов на стороне frontend.</li>
+                        <li>Best-effort синхронизация обратно в legacy-таблицы Subscribe и SubscribeHistory.</li>
+                        <li>Сохранение и генерация legacy SID-идентификаторов для совместимости подписчиков.</li>
+                        <li>Синхронизация городов и секций между новой и старой схемами.</li>
+                        <li>Фоновый импорт подписчиков, фильтров, истории, городов и секций из legacy tickets-таблиц.</li>
+                        <li>Поддержка legacy CRM-флоу и мультиязычных subscribe/unsubscribe templates в экосистеме Bravo.</li>
+                        <li>Безопасная обработка null-дат и различий между старой и новой схемами БД.</li>
                     </ul>
-                    <p class="technology_line"><span>Технологии:</span> Python, Flask, MySQL, Jinja, JavaScript, HTML, Bootstrap</p>
+                    <p class="technology_line"><span>Технологии:</span> Python, Flask, MySQL, SQL, data migration, legacy systems</p>
                 </article>
             </section>
 
@@ -223,7 +223,7 @@
                 </div>
                 <div>
                     <h2 class="section_title">Дополнительная информация</h2>
-                    <p class="body_text">Ищу позицию Python Backend Developer, где смогу дальше развиваться в backend engineering, API-интеграциях, базах данных, email-автоматизации, внутренних сервисах и серверной логике веб-приложений.</p>
+                    <p class="body_text">Ищу позицию Python Backend Developer, где смогу дальше развиваться в backend engineering, API-интеграциях, data-intensive внутренних сервисах, email-автоматизации и веб-приложениях, завязанных на базы данных.</p>
                 </div>
             </section>
         </main>
