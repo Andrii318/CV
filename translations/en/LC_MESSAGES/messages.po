@@ -36,6 +36,12 @@ msgstr "Email"
 msgid "contact.linkedin"
 msgstr "LinkedIn"
 
+msgid "contact.telegram"
+msgstr "Telegram"
+
+msgid "contact.whatsapp"
+msgstr "WhatsApp"
+
 msgid "contact.location"
 msgstr "Location"
 
