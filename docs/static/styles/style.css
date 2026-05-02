@@ -388,6 +388,12 @@ a {
     font-weight: 600;
 }
 
+.recommendation_links_line {
+    margin: 12px 0 0;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
 .recommendation_details {
     margin-top: 16px;
     border-top: 1px solid var(--border);
