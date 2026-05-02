@@ -328,7 +328,7 @@ msgid "recommendation.teaser.summary"
 msgstr "Рекомендация от Владислава Портона о моей работе в InterLink Info: backend-разработка, рост во Flask и базах данных, надежность, дисциплина и комфортная командная работа."
 
 msgid "recommendation.open_letter"
-msgstr "Открыть письмо"
+msgstr "Читать полностью"
 
 msgid "recommendation.open_original"
 msgstr "Открыть оригинал в Google Docs"

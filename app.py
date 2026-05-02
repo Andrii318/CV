@@ -21,12 +21,6 @@ def index():
     return render_template("cv_profail.html")
 
 
-@app.route("/recommendation")
-def recommendation():
-    """Render the recommendation letter page."""
-    return render_template("recommendation.html")
-
-
 @app.context_processor
 def inject_translations():
     """Inject translations and language metadata into every template."""

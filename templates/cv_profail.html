@@ -218,14 +218,31 @@
                     <p class="recommendation_meta_line">
                         {{ _('recommendation.author.name') }} · {{ _('recommendation.author.role') }} · {{ _('recommendation.author.company') }}
                     </p>
-                    <div class="action_row">
-                        <a class="action_link" href="{{ url_for('recommendation', lang=current_language) }}" target="_blank" rel="noopener noreferrer">
-                            {{ _('recommendation.open_letter') }}
-                        </a>
-                        <a class="action_link secondary" href="{{ recommendation_doc_url }}" target="_blank" rel="noopener noreferrer">
-                            {{ _('recommendation.open_original') }}
-                        </a>
-                    </div>
+                    <details class="recommendation_details">
+                        <summary class="recommendation_toggle">{{ _('recommendation.open_letter') }}</summary>
+                        <div class="recommendation_full">
+                            <div class="letter_body">
+                                <p>{{ _('recommendation.p1') }}</p>
+                                <p>{{ _('recommendation.p2') }}</p>
+                                <p>{{ _('recommendation.p3') }}</p>
+                                <p>{{ _('recommendation.p4') }}</p>
+                                <p>{{ _('recommendation.p5') }}</p>
+                                <p>{{ _('recommendation.p6') }}</p>
+                                <p>{{ _('recommendation.p7') }}</p>
+                            </div>
+                            <div class="signature_card">
+                                <p class="body_text strong">{{ _('recommendation.author.name') }}</p>
+                                <p class="body_text">{{ _('recommendation.author.role') }}</p>
+                                <p class="body_text">{{ _('recommendation.author.company') }}</p>
+                                <p class="body_text">{{ _('recommendation.author.country') }}</p>
+                                <p class="body_text"><a class="inline_link" href="mailto:{{ _('recommendation.author.email') }}">{{ _('recommendation.author.email') }}</a></p>
+                                <p class="body_text"><a class="inline_link" href="tel:+972526574093">{{ _('recommendation.author.phone') }}</a></p>
+                            </div>
+                            <p class="recommendation_original_link">
+                                <a class="inline_link" href="{{ recommendation_doc_url }}" target="_blank" rel="noopener noreferrer">{{ _('recommendation.open_original') }}</a>
+                            </p>
+                        </div>
+                    </details>
                 </article>
             </section>
 
