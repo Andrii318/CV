@@ -125,33 +125,35 @@ a {
 
 .contact_list {
     display: grid;
-    gap: 12px;
+    gap: 10px;
 }
 
 .contact_item {
     display: grid;
-    grid-template-columns: 42px minmax(0, 1fr);
-    gap: 12px;
-    align-items: start;
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 10px;
+    align-items: center;
 }
 
 .contact_icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 42px;
-    height: 42px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.06);
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
     color: var(--sidebar-text);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    flex: 0 0 34px;
 }
 
 .contact_icon svg {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
+    display: block;
+    width: 16px;
+    height: 16px;
+    overflow: visible;
 }
 
 .contact_body {
@@ -178,6 +180,43 @@ a {
 
 .contact_link:hover {
     color: #ffffff;
+}
+
+.contact_item--phone .contact_icon {
+    color: #7dd3fc;
+    background: rgba(14, 165, 233, 0.16);
+    border-color: rgba(125, 211, 252, 0.24);
+}
+
+.contact_item--email .contact_icon {
+    color: #fdba74;
+    background: rgba(249, 115, 22, 0.16);
+    border-color: rgba(253, 186, 116, 0.24);
+}
+
+.contact_item--telegram .contact_icon {
+    color: #93c5fd;
+    background: rgba(59, 130, 246, 0.16);
+    border-color: rgba(147, 197, 253, 0.24);
+}
+
+.contact_item--whatsapp .contact_icon {
+    color: #86efac;
+    background: rgba(34, 197, 94, 0.16);
+    border-color: rgba(134, 239, 172, 0.24);
+}
+
+.contact_item--linkedin .contact_icon {
+    color: #60a5fa;
+    background: rgba(37, 99, 235, 0.16);
+    border-color: rgba(96, 165, 250, 0.24);
+}
+
+.contact_item--location .contact_icon,
+.contact_item--work .contact_icon {
+    color: #cbd5e1;
+    background: rgba(148, 163, 184, 0.12);
+    border-color: rgba(203, 213, 225, 0.2);
 }
 
 .tag_list,
