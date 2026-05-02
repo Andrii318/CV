@@ -378,6 +378,21 @@ msgstr "+972-526-574093"
 msgid "recommendation.p1"
 msgstr "I represent the Israeli company Interlink Info, which develops and maintains internet products, including the news website Israelinfo and the Kupat Bravo ticketing service."
 
+msgid "recommendation.p1.before"
+msgstr "I represent the Israeli company Interlink Info, which develops and maintains internet products, including the news website "
+
+msgid "recommendation.link.news"
+msgstr "Israelinfo"
+
+msgid "recommendation.p1.middle"
+msgstr " and the ticketing service "
+
+msgid "recommendation.link.bravo"
+msgstr "Kupat Bravo"
+
+msgid "recommendation.p1.after"
+msgstr "."
+
 msgid "recommendation.p2"
 msgstr "I would like to recommend Andrey Mazurik, with whom we worked together for several years. Andrey worked with us remotely from Odesa as a Python web developer."
 

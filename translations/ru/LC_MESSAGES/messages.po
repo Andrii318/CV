@@ -378,6 +378,21 @@ msgstr "+972-526-574093"
 msgid "recommendation.p1"
 msgstr "Я представляю израильскую компанию Interlink Info, которая занимается разработкой и поддержкой интернет-проектов, включая новостной сайт Israelinfo и сервис продажи билетов «Касса Браво»."
 
+msgid "recommendation.p1.before"
+msgstr "Я представляю израильскую компанию Interlink Info, которая занимается разработкой и поддержкой интернет-проектов, включая новостной сайт "
+
+msgid "recommendation.link.news"
+msgstr "Israelinfo"
+
+msgid "recommendation.p1.middle"
+msgstr " и сервис продажи билетов «"
+
+msgid "recommendation.link.bravo"
+msgstr "Касса Браво"
+
+msgid "recommendation.p1.after"
+msgstr "»."
+
 msgid "recommendation.p2"
 msgstr "Хочу дать рекомендацию Андрею Мазурику, с которым мы сотрудничали несколько лет. Андрей работал у нас удаленно из Одессы в качестве веб-разработчика на Python."
 

@@ -378,6 +378,21 @@ msgstr "+972-526-574093"
 msgid "recommendation.p1"
 msgstr "Reprezentuje izraelska firme Interlink Info, ktora zajmuje sie tworzeniem i utrzymaniem projektow internetowych, w tym serwisu informacyjnego Israelinfo oraz systemu sprzedazy biletow Kupat Bravo."
 
+msgid "recommendation.p1.before"
+msgstr "Reprezentuje izraelska firme Interlink Info, ktora zajmuje sie tworzeniem i utrzymaniem projektow internetowych, w tym serwisu informacyjnego "
+
+msgid "recommendation.link.news"
+msgstr "Israelinfo"
+
+msgid "recommendation.p1.middle"
+msgstr " oraz systemu sprzedazy biletow "
+
+msgid "recommendation.link.bravo"
+msgstr "Kupat Bravo"
+
+msgid "recommendation.p1.after"
+msgstr "."
+
 msgid "recommendation.p2"
 msgstr "Chce udzielic rekomendacji Andreyowi Mazurikowi, z ktorym wspolpracowalismy przez kilka lat. Andrey pracowal z nami zdalnie z Odessy jako Python web developer."
 
